@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noorul Ajeem | Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Montserrat',sans-serif;
+}
+
+body{
+  background: linear-gradient(-45deg,#ff6a00,#ee0979,#00c6ff,#0072ff);
+  background-size:400% 400%;
+  animation: gradient 10s ease infinite;
+  color:white;
+}
+
+@keyframes gradient{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+header{
+  text-align:center;
+  padding:100px 20px;
+}
+
+header h1{
+  font-size:60px;
+  font-weight:800;
+}
+
+header span{
+  color:#ffd700;
+}
+
+header p{
+  margin-top:20px;
+  font-size:22px;
+  opacity:0.9;
+}
+
+.btn{
+  margin-top:30px;
+  display:inline-block;
+  padding:14px 35px;
+  background:white;
+  color:#333;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+}
+
+section{
+  padding:80px 10%;
+}
+
+.glass{
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(15px);
+  border-radius:20px;
+  padding:40px;
+  box-shadow:0 8px 32px rgba(0,0,0,0.2);
+}
+
+h2{
+  text-align:center;
+  margin-bottom:40px;
+  font-size:36px;
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+}
+
+.skill{
+  padding:12px 25px;
+  background:linear-gradient(45deg,#ffd700,#ff8c00);
+  border-radius:25px;
+  font-weight:600;
+  color:#222;
+}
+
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.project{
+  background:rgba(255,255,255,0.15);
+  padding:25px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.project:hover{
+  transform:translateY(-10px) scale(1.03);
+}
+
+footer{
+  text-align:center;
+  padding:40px;
+  font-size:14px;
+  opacity:0.8;
+}
+
+@media(max-width:768px){
+  header h1{
+    font-size:38px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hello, I'm <span>Noorul Ajeem</span></h1>
+  <p>WordPress Developer • 15+ Live Projects • Hosting Expert</p>
+  <a href="#contact" class="btn">Let's Work Together</a>
+</header>
+
+<section>
+  <div class="glass">
+    <h2>About Me</h2>
+    <p style="text-align:center; line-height:1.8;">
+      Passionate WordPress Developer building high-performance websites,
+      eCommerce stores, and scalable business solutions.
+      I focus on speed, UI/UX, and real client results.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="glass">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">WordPress</div>
+      <div class="skill">Elementor</div>
+      <div class="skill">WooCommerce</div>
+      <div class="skill">PHP</div>
+      <div class="skill">SEO</div>
+      <div class="skill">Hosting & Plesk</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="glass">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Corporate Website</h3>
+        <p>Modern business website with premium UI design.</p>
+      </div>
+      <div class="project">
+        <h3>E-Commerce Store</h3>
+        <p>Full WooCommerce store with payment integration.</p>
+      </div>
+      <div class="project">
+        <h3>Logistics Platform</h3>
+        <p>SEO optimized service-based website.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="glass">
+    <h2>Contact</h2>
+    <p style="text-align:center;">
+      📧 noorulajeem0622@gmail.com <br>
+      📱 +91 6374708966
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Noorul Ajeem • Designed with Passion 🚀
+</footer>
+
+</body>
+</html>
